@@ -16,6 +16,9 @@
     "scripts": ["js/background.js"]
   },
   "permissions": [
+    "tabs",
+    "http://*/",
+    "https://*/"
   ],
   "author": "Author"
 }
