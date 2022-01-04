@@ -19,3 +19,4 @@ function getAudioPlayBackPosition() {
 }
 
 getAudioPlayBackPosition()
+chrome.runtime.sendMessage(null);
